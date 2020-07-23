@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>My Page </title>
+        <style>
+            @media(min-width:600px){
+                body{background-color: lightblue;}
+                }
+            @media(max-width: 599px){
+                body{background-color: lightcoral;}
+                }
+            .baz {
+                color: rgb(90, 119, 61);        
+            }
+        
+        <style>
+            ul>li{
+                color: darkred;
+            }
+        </style>
+        <style>
+            a{color: darkslategrey;}
+            a[a href="https://Google.com"]{ color: darkslategray;}
+        </style>
+        <style>
+            button{
+                width: 80px;
+                height: 20px;
+                color: rgb(74, 99, 74);
+                padding: 2px;
+                background-color: gold; }
+                button:hover{color: greenyellow; background-color: indigo;}
+        </style>
+        <style>
+            #container{
+                display: flex;
+                flex-wrap: wrap;
+            }
+            #container>div{
+                background-color: lightseagreen;
+                font-size: 20px;
+                margin: 20px;
+                padding: 20px;
+                width: 200px;
+            }
+        </style>
+        <style>
+            #grid{
+                background-color: rgb(64, 156, 61);
+                display: grid;
+                padding: 20px;
+                grid-column-gap:20px; 
+                grid-rows-gap: 20px;
+                grid-template-columns: 200px 200px auto;
+
+            }
+            .grid-item{
+                background-color:white;
+                font-size: 20px;
+                padding: 20px;
+                text-align: center;
+            }
+        </style>
+        
+
+    </head>
+    <body>
+        <h1 class="baz">heading 1</h1>
+            <p  >the smarter way to learn html is self</p>
+        <h1 class="baz">heading 1</h2>
+        <ol>
+            <li>list one </li>
+            <li>list two</li>
+             <ul>
+                 <li>i am listing</li>
+                 <li>i am also listing</li>
+                 <li>><a href="https://Google.com" > Google</a></li>
+                 <ul>
+                     <li><a href="facebook.com">facebook</a></li>
+                 </ul>
+             </ul>
+             <li>list three</li>
+        </ol>
+        <div id="grid">
+            <div class="grid-item ">1</div>
+            <div class="grid-item ">2</div>
+            <div class="grid-item ">3</div>
+            <div class="grid-item ">4</div>
+            <div class="grid-item ">5</div>
+            <div class="grid-item ">6</div>
+            <div class="grid-item ">7</div>
+
+        </div>
+        <div id="container">
+            <div>1.this is way showing flex box how i am doning</div>
+            <div>2.this is way showing flex box how i am doning</div>
+            <div>3.this is way showing flex box how i am doning</div>
+            <div>4.this is way showing flex box how i am doning</div>
+            <div>5.this is way showing flex box how i am doning</div>
+            <div>6.this is way showing flex box how i am doning</div>
+            <div>7.this is way showing flex box how i am doning</div>
+        </div>
+
+        <button>click me</button>
+        <h2>heading 2</heading>
+    </body>
+</html>
